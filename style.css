@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.BarradeCima{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:white;
+    height: 25vh;
+    width: 100%;
+    background-image: url(./img/Wood.jpg);
+    background-size:cover;
+    background-position: center;
+    image-resolution: pixelated;
+}
