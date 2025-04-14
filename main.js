@@ -20,3 +20,7 @@ gandalfAudio.currentTime = 0;
     Msg.style.visibility = "hidden";
   }, 4000);
 }
+
+function Comprar(){
+    window.location.href= "item.html"
+}

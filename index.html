@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LivrosLivretos | Terra Média</title>
+    <title>Terra Média | Livros Livretos</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="main.js"defer></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+
 </head>
 
 <audio id="musica-fundo" loop>
@@ -18,14 +20,13 @@
  
  <ul>
     <h4>Notas do Update:</h4>
-    <li>Melhorei as "Notas" para "Notas do Update"Ficando mais específico</li>
-    <li>Adicionei Gritinho do Gandalf, Proibição de Compra (estoque cheio) e uma mensagem visual pra isso</li>
-    <li>Chegamos a versão de Beta 0.0.4, música não contou como update porque foi um aprimoramento na versão 0.0.3 .</li>
-    <li>NÃO posso esquecer de dar pull no github</li>
+    <li>Agora um item está disponível, funcionando com link para a página</li>
+    <li>Alteração em #NotPass, diminuindo sua height</li>
+    <li>Talvez a última alteração até aqui,na escola.</li>
     </ul>
     <br>
     
-    <br><p>Versão Beta 0.0.4!</p>
+    <br><p>Versão Beta 0.0.5!</p>
        </header>
 <body>
     <h1>Catálogo     </h1><br><br><br>
@@ -48,7 +49,7 @@
     <div class="produtos">
         <div id="produto" onclick="NotPass()"><img src="./img/livroteste.jfif " style="max-width: 20vh"><br><br>A Irmandade do Anel       </div></div>
     <div class="produtos">
-        <div id="produto"><img src="./img/duastorres_teste.jfif" style="max-width: 20vh"><br><br>As Duas Torres</div></div>
+        <div id="produto" onclick="Comprar()"><img src="./img/duastorres_teste.jfif" style="max-width: 20vh"><br><br>As Duas Torres</div></div>
     <div class="produtos">
         <div id="produto" onclick="NotPass()"><img src="./img/livroteste.jfif " style="max-width: 20vh"><br><br>A Irmandade do Anel</div></div>
 
