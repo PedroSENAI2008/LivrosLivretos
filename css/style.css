@@ -45,21 +45,25 @@ body{
     z-index: 2;
     box-shadow: 5px 5px 5px black;
     height: 150vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top  ;
     background-image: url(../img/Stone.jpg);
+    background-repeat: repeat-y;
+
+    min-width:7vh;
+    min-height: 100vh;
 }
 
 
 body h3{
     font-family: "EB Garamond";
-    font-weight: 100;
+    font-weight: 800;
     color:white;
     text-align: center;
     text-shadow: 1px 1px 1px black;
-    padding:10px 10px
-}
+    padding:10px 10px;}
 body h1{
     font-size: 9rem;
     font-weight: 900;
@@ -68,6 +72,7 @@ body h1{
     text-align: center;
     text-shadow: 1.5px 1.5px 1.5px rgb(77, 63, 63);
     padding:10px 10px;
+
 }
 .segundoheader{
     background-size: contain;
@@ -147,4 +152,5 @@ text-shadow: 2px 2px 2px rgb(22, 24, 43);
 .Loja{
     display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
 }

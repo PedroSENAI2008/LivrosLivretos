@@ -6,12 +6,33 @@
     <title>LivrosLivretos | Terra Média</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
+<audio id="musica-fundo" loop>
+    <source src="HowardShore.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio HTML5.
+  </audio>
+  
+  <script>
+    const audio = document.getElementById('musica-fundo');
+const startTime = 10; // define o ponto inicial (em segundos)
+
+// Quando o usuário passar o mouse sobre o body, a música tocará a partir do segundo 20.
+document.body.addEventListener('mouseover', () => {
+  // Se o áudio estiver antes do segundo 20, ajusta para começar a partir daí.
+  if (audio.currentTime < startTime) {
+    audio.currentTime = startTime;
+  }
+  audio.play();
+});
+
+  </script>
+  
 <header>
  
  <ul>
     <h4>NOTAS:</h4>
-    <li>Adicionei novas divs relacionadas a produtos e suas respectivas classes.</li>
-    <li>Adicionei detalhes e mais detalhes bonitinhos como sombras e bordas</li>
+    <li>MÚSICA!1!!!1</li>
+    <li>mAIS DETALHES</li>
     <li>NÃO posso esquecer de dar pull no github</li>
     </ul>
     <br>
@@ -30,7 +51,8 @@
 </div>
     </div>
     <div>
-        <h3>Lord of The Rings é uma trilogia fantástica de Tolkien</h3>
+        <h3>Lord of The Rings é uma trilogia fantástica de J.R.R Tolkien que narra a épica jornada de um grupo de heróis para destruir um anel maligno e 
+            impedir que o mal absoluto domine a Terra-média, misturando aventura, mitologia, amizade e sacrifício em um mundo ricamente construído.</h3>
     </div>
 <div class="Loja">
     <div class="produtos">
