@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Uncial+Antiqua&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:white;
+    height: 25vh;
+    width: 100%;
+    background-image: url(../img/teste1.jpg);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+header::before {
+    content: '';
+    position: absolute;
+    inset: 0; 
+    background-color: rgba(80, 71, 68, 0.486);
+
+  }
+
+header p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+header li{
+    padding:10px 10px;
+
+}
+
+body{
+    z-index: 2;
+    box-shadow: 5px 5px 5px black;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top  ;
+    background-image: url(../img/Stone.jpg);
+}
+
+
+body h3{
+    font-family: "EB Garamond";
+    font-weight: 100;
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding:10px 10px
+}
+body h1{
+    font-size: 9rem;
+    font-weight: 900;
+    font-family: "EB Garamond";
+    color:white;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1.5px rgb(77, 63, 63);
+    padding:10px 10px;
+}
+.segundoheader{
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: end;
+    height: 25v;
+    width: 100%;
+}
+
+.segundoheader #titulo{
+    font-family: "Uncial Antiqua";
+    font-size: 3rem;
+    font-weight: 900;
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding:10px 10px;
+}
+.segundoheader h4{
+    text-align: center;
+    font-family: "EB Garamond";
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.dahora{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produtos{
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10vh 10vh;
+    flex-direction: row;
+    color:white;
+    display: flex;
+    
+    margin: 0 auto;
+    padding: 10vh 10vh;
+    flex-direction: row;
+
+}
+
+#produto{
+    padding: 10vh 10vh;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Mistico.jpg);
+background-position: center bottom;
+font-weight: 700;
+font-family: "Merriweather";
+font-size: 1.9vh;
+color: white;
+border-radius: 20px;
+box-shadow: 1rem 1rem 1rem rgb(36, 30, 30);
+text-shadow: 2px 2px 2px rgb(22, 24, 43);
+}
+#produto img{
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(29, 20, 31);
+    
+}
+#produto:hover{ 
+    filter: brightness(0.9); 
+    font-weight: 900;
+    color: white;
+  
+}
+.Loja{
+    display: flex;
+    margin: 0 auto;
+}
