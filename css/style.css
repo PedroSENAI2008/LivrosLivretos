@@ -65,7 +65,7 @@ body h3{
     text-shadow: 1px 1px 1px black;
     padding:10px 10px;}
 body h1{
-    font-size: 9rem;
+    font-size: 5rem;
     font-weight: 900;
     font-family: "EB Garamond";
     color:white;
@@ -153,4 +153,22 @@ text-shadow: 2px 2px 2px rgb(22, 24, 43);
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
+}
+
+#NotPass{
+    font-family: Merriweather;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(128, 65, 65, 0.877);
+    height: 10vh;
+    width: 100%;
+    font-size: 2.4vh;
+    visibility: hidden;
+    position:fixed;
+    top:0;
+    z-index: 9999;
 }

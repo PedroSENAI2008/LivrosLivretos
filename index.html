@@ -5,39 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LivrosLivretos | Terra Média</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="main.js"defer></script>
 </head>
 
 <audio id="musica-fundo" loop>
     <source src="HowardShore.mp3" type="audio/mpeg">
-    Seu navegador não suporta áudio HTML5.
   </audio>
-  
-  <script>
-    const audio = document.getElementById('musica-fundo');
-const startTime = 10; // define o ponto inicial (em segundos)
-
-// Quando o usuário passar o mouse sobre o body, a música tocará a partir do segundo 20.
-document.body.addEventListener('mouseover', () => {
-  // Se o áudio estiver antes do segundo 20, ajusta para começar a partir daí.
-  if (audio.currentTime < startTime) {
-    audio.currentTime = startTime;
-  }
-  audio.play();
-});
-
-  </script>
-  
+  <audio id="Gandalf">
+    <source src="Gandalf.mp3" type="audio/mpeg">
+  </audio>
 <header>
  
  <ul>
-    <h4>NOTAS:</h4>
-    <li>MÚSICA!1!!!1</li>
-    <li>mAIS DETALHES</li>
+    <h4>Notas do Update:</h4>
+    <li>Melhorei as "Notas" para "Notas do Update"Ficando mais específico</li>
+    <li>Adicionei Gritinho do Gandalf, Proibição de Compra (estoque cheio) e uma mensagem visual pra isso</li>
+    <li>Chegamos a versão de Beta 0.0.4, música não contou como update porque foi um aprimoramento na versão 0.0.3 .</li>
     <li>NÃO posso esquecer de dar pull no github</li>
     </ul>
     <br>
     
-    <br><p>Versão Beta 0.0.3!</p>
+    <br><p>Versão Beta 0.0.4!</p>
        </header>
 <body>
     <h1>Catálogo     </h1><br><br><br>
@@ -54,13 +42,17 @@ document.body.addEventListener('mouseover', () => {
         <h3>Lord of The Rings é uma trilogia fantástica de J.R.R Tolkien que narra a épica jornada de um grupo de heróis para destruir um anel maligno e 
             impedir que o mal absoluto domine a Terra-média, misturando aventura, mitologia, amizade e sacrifício em um mundo ricamente construído.</h3>
     </div>
+    <div id="NotPass">Item não disponível pra compra!(Fora de Estoque)</div>
 <div class="Loja">
+   
     <div class="produtos">
-        <div id="produto"><img src="./img/livroteste.jfif " style="max-width: 20vh"><br><br>A Irmandade do Anel</div></div>
+        <div id="produto" onclick="NotPass()"><img src="./img/livroteste.jfif " style="max-width: 20vh"><br><br>A Irmandade do Anel       </div></div>
     <div class="produtos">
         <div id="produto"><img src="./img/duastorres_teste.jfif" style="max-width: 20vh"><br><br>As Duas Torres</div></div>
     <div class="produtos">
-        <div id="produto"><img src="./img/livroteste.jfif " style="max-width: 20vh"><br><br>A Irmandade do Anel</div></div>
+        <div id="produto" onclick="NotPass()"><img src="./img/livroteste.jfif " style="max-width: 20vh"><br><br>A Irmandade do Anel</div></div>
+
+ 
 </div>
 </body>
 </html>
