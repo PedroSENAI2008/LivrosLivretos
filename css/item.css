@@ -45,6 +45,7 @@ header li{
 }
 
 body{
+    flex:1;
     z-index: 2;
     box-shadow: 5px 5px 5px black;
     height: 150vh;
@@ -135,3 +136,12 @@ font-weight: 800;
 .button a{
     color:white;
 }
+footer {
+    background-color: #1a1a1a;
+    color: #ddd;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #444;
+  }
+  
