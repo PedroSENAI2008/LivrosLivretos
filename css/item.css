@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Uncial+Antiqua&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:white;
+    height: 25vh;
+    width: 100%;
+    background-image: url(../img/tentativa.png);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+header::before {
+    content: '';
+    position: absolute;
+    inset: 0; 
+    background-color: rgba(80, 71, 68, 0.486);
+
+  }
+
+header p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+header li{
+    padding:10px 10px;
+
+}
+
+body{
+    z-index: 2;
+    box-shadow: 5px 5px 5px black;
+    height: 150vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top  ;
+    background-image: url(../img/basalt.png);
+    background-repeat: repeat-y;
+
+    min-width:7vh;
+    min-height: 80vh;
+}
+
+
+body h3{
+    font-family: "EB Garamond";
+    font-weight: 800;
+    color:white;
+    text-align: center;
+    text-shadow:  8px 8px 20px black;
+    padding:10px 10px;}
+body h1{
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: "EB Garamond";
+    color:white;
+    text-align: center;
+    text-shadow: 8px 8px 20px rgb(77, 63, 63);
+    padding:10px 10px;
+
+}
+.retorno{
+    font-family: EB Garamond;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.retorno ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size:40px;
+}
+.retorno li{
+    padding:20px 20px;
+}
+.retorno a{
+    text-decoration: none; 
+    color: white;
+    text-shadow:3px 2px 3px black;
+}
+.amostrado{
+    text-align: center;
+    margin: 0 auto;
+    padding:15vh 15vh
+
+}
+.amostrado img{
+    max-width:40vh;
+    box-shadow: 30px 30px 30px rgba(11, 11, 14, 0.856);
+
+}
+
+.texto{
+    font-family: "EB Garamond";
+    text-align: center;
+    font-size:40px;
+    color:white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    color:white;
+    border:none;
+    border-color:black;
+    border-radius: 20px;
+height: 60px;
+width:400px;
+padding:20px 20px;
+margin:0 auto;
+text-decoration: none;
+font-size: 40px;
+font-weight: 800;
+}
+
+.button a{
+    color:white;
+}

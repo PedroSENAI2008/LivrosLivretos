@@ -62,7 +62,7 @@ body h3{
     font-weight: 800;
     color:white;
     text-align: center;
-    text-shadow: 1px 1px 1px black;
+    text-shadow:  8px 8px 20px black;
     padding:10px 10px;}
 body h1{
     font-size: 5rem;
@@ -70,7 +70,7 @@ body h1{
     font-family: "EB Garamond";
     color:white;
     text-align: center;
-    text-shadow: 1.5px 1.5px 1.5px rgb(77, 63, 63);
+    text-shadow: 8px 8px 20px rgb(77, 63, 63);
     padding:10px 10px;
 
 }
@@ -96,7 +96,7 @@ body h1{
     font-family: "EB Garamond";
     font-style: italic;
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow:  8px 8px 20px black;
 }
 
 .dahora{
